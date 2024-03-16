@@ -3,6 +3,7 @@ import tkinter as tk
 from tkinter.filedialog import Open
 from PIL import Image, ImageTk
 import os
+from setuptools import setup
 
 def showimage(self=None):
     filedialog.askopenfile(initialdir=os.getcwd(), title="Select image file",
@@ -14,6 +15,8 @@ def showimage(self=None):
     lbl.config(image=img)
     lbl.iamge = img
 
+with open("/Users/akshat/Desktop/icons/dog.png") as f:
+    long_description = f.read()
 
 root = tk.Tk()
 
