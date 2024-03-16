@@ -3,7 +3,6 @@ import tkinter as tk
 from tkinter.filedialog import Open
 from PIL import Image, ImageTk
 import os
-from setuptools import setup
 
 def showimage(self=None):
     filedialog.askopenfile(initialdir=os.getcwd(), title="Select image file",
