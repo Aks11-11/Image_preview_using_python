@@ -12,7 +12,7 @@ def showimage(self=None):
     img = Image.open(filename)
     img=ImageTk.PhotoImage(img)
     lbl.config(image=img)
-    lbl.iamge = img
+    lbl.image = img
 
 with open("/Users/akshat/Desktop/icons/dog.png") as f:
     long_description = f.read()

@@ -9,7 +9,7 @@ def showimage():
     img = Image.open(filename)
     img=ImageTk.PhotoImage(img)
     lbl.config(image=img)
-    lbl.iamge = img
+    lbl.image = img
 
 
 root = Tk()
