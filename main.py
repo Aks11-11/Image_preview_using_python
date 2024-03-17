@@ -3,14 +3,12 @@ import tkinter as tk
 from tkinter import filedialog
 from PIL import Image, ImageTk
 import os
-
 def showimage():
     filename = filedialog.askopenfile(initialdir=os.getcwd(),title="Select image file",filetype=(("JPG File","*.jpg"),("PNG File","*png"),("All file","how are oyu.txt")))
     img = Image.open(filename)
     img=ImageTk.PhotoImage(img)
     lbl.config(image=img)
     lbl.image = img
-
 
 root = Tk()
 
