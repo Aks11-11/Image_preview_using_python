@@ -15,10 +15,9 @@ def showimage(self=None):
 
 with open("/Users/akshat/Desktop/icons/dog.png") as f:
     long_description = f.read()
-
 root = tk.Tk()
 
-fram  = tk.Frame(root)
+fram = tk.Frame(root)
 fram.pack(side=BOTTOM,padx=15,pady=15)
 
 lbl = tk.Label(root)
