@@ -12,7 +12,6 @@ def showimage(self=None):
     img=ImageTk.PhotoImage(img)
     lbl.config(image=img)
     lbl.image = img
-
 with open("/Users/akshat/Desktop/icons/dog.png") as f:
     long_description = f.read()
 root = tk.Tk()
